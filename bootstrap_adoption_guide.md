@@ -15,7 +15,7 @@ npm init -y
 npm install bootstrap
 ```
 Ignore `node_modules/` in your git configuration (`.gitignore`) and copy the required assets to your project's local directories:
-* Copy `node_modules/bootstrap/dist/css/bootstrap.css` to `css/bootsrap.css`
+* Copy `node_modules/bootstrap/dist/css/bootstrap.css` to `css/bootstrap.css`
 * Copy `node_modules/bootstrap/dist/js/bootstrap.bundle.js` to `js/bootstrap.bundle.js`
 
 ### B. CDN Integration (Recommended for Prototyping)
@@ -34,7 +34,7 @@ Bootstrap is built mobile-first. Ensure the responsive viewport meta tag is adde
     <title>Joe Doe - CV</title>
     
     <!-- 1. Load Bootstrap CSS first -->
-    <link rel="stylesheet" href="css/bootsrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     
     <!-- 2. Load Custom overrides stylesheet second -->
     <link rel="stylesheet" href="css/style.css">
