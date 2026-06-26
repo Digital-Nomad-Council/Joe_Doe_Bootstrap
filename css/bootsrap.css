@@ -1,0 +1,15 @@
+/* Custom Flexbox and Layout Styles for Joe Doe CV Version 3 */
+
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #fff;
+}
